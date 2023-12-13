@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Streams Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![streams image](https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F20696840517663AE07)
 
-## Available Scripts
+## 설명 동영상
 
-In the project directory, you can run:
+[![video](http://img.youtube.com/vi/GBNWi4JY2X8/0.jpg)](https://www.youtube.com/watch?v=GBNWi4JY2X8)
 
-### `npm start`
+### [게임 설명](https://yes-today.tistory.com/393)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+초간단 Streams 게임입니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+기본적인 로직은 완료 하였고 이미지와 애니메이션을 붙일 예정입니다.
 
-### `npm test`
+![gamed](http://mblogthumb1.phinf.naver.net/MjAxOTA4MjhfMTE4/MDAxNTY2OTg0NDk2NzA1.irGOdcEpyCPSxlaJNeetimc_6aJGTtNfyAniaQW-Prgg.D6pS3U_eZo-itWWwRpzNIoVX7jTbf23B3tZpT4rS_5kg.PNG.uhgene/3.PNG?type=w800)
+![note](https://blog.kakaocdn.net/dn/UBaus/btrjcai4an2/B6b40wJ0gSHzGV9B2EIVmk/img.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 세줄요약
 
-### `npm run build`
+- "1-10" 까지 1개 "11-20" 까지 2개씩 "21-30" 까지 1개, 조커 1개의 총 41개의 랜덤 숫자를 가짐.
+- 랜덤으로 숫자를 20개를 차례대로 선출하여 턴마다 1개씩 숫자를 분배
+- 오름차순으로 계산하여 최고 승점을 가진 사람이 승리.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 남은 진행사항
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 게임에 맞는 이미지 찾기
+- 애니메이션 구현 방법 선택하기 및 디자인
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[게임하러가기](https://workshop-streams.netlify.com/)
